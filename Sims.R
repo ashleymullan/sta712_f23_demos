@@ -80,4 +80,8 @@ for(i in 1:100){
 sim3 <- data.frame(x = x_dep,
                    y = 2*x_dep + 7 + rnorm(100,0,1))
 #check if this works and go from here
+
+#to do: break either dependence, missing data, or sample size
+#box plot sector and y
+#check the friedman paper that romano cites
   
